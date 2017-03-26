@@ -159,6 +159,9 @@ document.addEventListener("touchstart",function(e){
 	startX=e.touches[0].pageX;
 	startY=e.touches[0].pageY;
 });
+document.addEventListener("touchmove",function(e){
+	e.preventDefault();
+});
 document.addEventListener("touchend",function(e){
 	e.preventDefault();
 	endX=e.changedTouches[0].pageX;
