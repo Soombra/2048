@@ -93,7 +93,7 @@ function updateBoardView(){
 	}
 	$(".number-cell").css({//不明白  以后思考
 		"line-height":cellWidth+"px",
-		"font-size":0.6*cellWidth
+		"font-size":0.4*cellWidth
 	});
 }
 
