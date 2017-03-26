@@ -27,7 +27,7 @@ function mobileStyle(){
 	$(".cell").css({
 		"width":cellWidth,
 		"height":cellWidth,
-		"border-radius":0.02*cellWidth
+		"border-radius":"6px"
 	});
 }
 
